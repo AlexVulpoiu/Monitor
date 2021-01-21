@@ -8,12 +8,8 @@ $ gcc Monitor.h Monitor.c main.c -o main -pthread
 $ ./main
 
 # Input:
-buffer_size
-
-number_of_producers
-
-producers_values
-
-number_of_consumers
-
-consumers_values
+- buffer_size
+- number_of_producers
+- producers_values
+- number_of_consumers
+- consumers_values
